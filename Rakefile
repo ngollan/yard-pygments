@@ -10,10 +10,10 @@ begin
 A plugin for the YARD documentation system that adds syntax highlighting
 for a wide variety of languages using the Pygments highlighter.
 DESC
-    gem.email = "nex342@gmail.com"
-    gem.homepage = "http://github.com/nex3/yard-pygments"
-    gem.authors = ["Nathan Weizenbaum"]
-    gem.add_dependency('yard', '~> 0.5.3')
+    gem.email = "gtdev@spearhead.de"
+    gem.homepage = "http://github.com/ngollan/yard-pygments"
+    gem.authors = ["Nathan Weizenbaum", "Nicos Gollan"]
+    gem.add_dependency('yard')
     gem.add_dependency('rb-pygments', '>= 0.1.0')
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
